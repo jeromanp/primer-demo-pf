@@ -8,8 +8,8 @@ export default function handler(req, res) {
 		phone: '+54 (0291)5769286',
 		gmaps_link: 'https://shorturl.at/hnEV7',
 		social: {
-			facebook: 'https://facebook.com',
-			instagram: 'https://instagram.com'
+			facebook: 'https://www.facebook.com/Hosteria.Hueney.Ruca/?locale=es_LA',
+			instagram: 'https://www.instagram.com/hosteriahueneyruca/?hl=es'
 		}
 	})
 }
