@@ -66,7 +66,7 @@ export default function Cabins() {
           <Slider {...settings} >
             {cabins.map(cabin => (
               <div key={cabin.id} className='border text-center rounded-2xl'>
-                <div className='bg-slate-500 w-full h-60 rounded-2xl mb-8'></div>
+                <div className='bg-slate-800 w-full h-65 rounded-xl mb-5'><img src="https://scontent.ftlc1-1.fna.fbcdn.net/v/t39.30808-6/305238709_501510608644888_1080000614403145010_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=e3f864&_nc_ohc=kD0-e9GO4nIAX8ssVIV&_nc_ht=scontent.ftlc1-1.fna&oh=00_AfDijIKB6vpvmwAGpz7svsJToaLa95bLsOOgnO_gUail8Q&oe=645524D2" alt=""/></div>
 
                 <h2 className='text-brand-green font-bold text-3xl'>{cabin.name}</h2>
 
