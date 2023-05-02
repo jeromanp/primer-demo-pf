@@ -3,7 +3,7 @@ import Layout from '../layouts/Layout';
 export default function Actividades() {
 
   const handleDownload = () => {
-    const url = 'https://kwmjganrkoyleqdillhu.supabase.co/storage/v1/object/public/hueney_ruca/catalogo_turistico/Catalogo_Turistico_Sierras-de-la-Venatana.pdf';
+    const url = 'https://kwmjganrkoyleqdillhu.supabase.co/storage/v1/object/public/hueney_ruca/catalogo_turistico/Catalogo_Turistico_Sierras-de-la-Venatana.pdf?t=2023-05-02T00%3A44%3A25.393Z';
     const filename = 'Catalogo_Turistico_Sierras-de-la-Venatana.pdf';
     fetch(url)
       .then(response => response.blob())
